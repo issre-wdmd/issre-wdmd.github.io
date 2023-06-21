@@ -18,8 +18,8 @@ const router = createRouter({
       component: () => import('@/views/PapersView.vue')
     },
     {
-      path: '/keynote/specakers',
-      component: () => import('@/views/KeynoteSpecakersView.vue')
+      path: '/keynote/speakers',
+      component: () => import('@/views/KeynoteSpeakersView.vue')
     },
     {
       path: '/committees',

@@ -5,12 +5,12 @@
     router
     default-active="/"
   >
-    <div>WDMD</div>
+    <div class="logo">WDMD</div>
     <div class="menu-right">
       <el-menu-item index="/">HOME</el-menu-item>
       <el-menu-item index="/participation">CALL FOR PARTICIPATION</el-menu-item>
       <el-menu-item index="/papers">CALL FOR PAPERS</el-menu-item>
-      <el-menu-item index="/keynote/specakers">KEYNOTE SPECAKERS</el-menu-item>
+      <el-menu-item index="/keynote/speakers">KEYNOTE SPEAKERS</el-menu-item>
       <el-menu-item index="/committees">COMMITTEES</el-menu-item>
       <el-menu-item index="/attending">ATTENDING</el-menu-item>
     </div>
@@ -25,6 +25,11 @@
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
+
+  .logo {
+    height: 58px;
+    line-height: 58px;
+  }
 
   .menu-right {
     display: flex;

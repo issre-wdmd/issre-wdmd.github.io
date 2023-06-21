@@ -16,3 +16,21 @@ a,
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
+
+.title1 {
+  color: #040a3f;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.title2 {
+  color: #0b5394;
+  font-size: 32px;
+  line-height: 1.8;
+}
+
+.p {
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+}
