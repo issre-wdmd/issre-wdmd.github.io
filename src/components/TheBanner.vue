@@ -2,8 +2,10 @@
   <div class="banner">
     <div class="background"></div>
     <div class="text">
-      <h2 class="title font-lato">WDMD 2023: 2nd International Workshop on Dependability Modeling and Design Co-located ISSRE 2023</h2>
-      <div class="tip font-merri">October 2023 - Florence, Italy</div>
+      <h2 class="title font-lato">WDMD 2023: 2nd International Workshop on </h2>
+      <h2 class="title font-lato">Dependability Modeling and Design</h2>
+      <div class="subtitle">Co-located with ISSRE 2023</div>
+      <div class="tip font-merri">October 9-12, Florence, Italy</div>
     </div>
   </div>
 </template>
@@ -49,12 +51,19 @@
       font-size: 32px;
       font-weight: bold;
       line-height: 1.2;
+      text-align: center;
     }
-    .tip {
+    .subtitle {
+      text-align: center;
       margin-top: 10px;
       font-size: 24px;
       color: #f3f3f3;
       font-style: italic;
+    }
+    .tip {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 20px;
     }
   }
 }
