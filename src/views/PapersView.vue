@@ -51,7 +51,7 @@
     </ul>
 
     <div class="title2 section-title">Paper Submission</div>
-    <p class="pa-header p">Papers are submitted via EasyChair at the following URL:</p>
+    <p class="pa-header p">Papers are submitted via EasyChair at the following URL: <a href="https://easychair.org/conferences/?conf=wdmd2023" target="_blank">https://easychair.org/conferences/?conf=wdmd2023</a></p>
     <p class="pa-content p">If you have any further questions, contact us via <mark>issre_wdmd@163.com</mark>.</p>
   </div>
 </template>

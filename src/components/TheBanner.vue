@@ -4,7 +4,7 @@
     <div class="text">
       <h2 class="title font-lato">WDMD 2023: 2nd International Workshop on </h2>
       <h2 class="title font-lato">Dependability Modeling and Design</h2>
-      <div class="subtitle">Co-located with ISSRE 2023</div>
+      <div class="subtitle">Co-located with <a href="https://issre.github.io/2023/" target="_blank">ISSRE 2023</a></div>
       <div class="tip font-merri">October 9-12, Florence, Italy</div>
     </div>
   </div>
@@ -15,7 +15,7 @@
 
 <style lang="less" scoped>
 .banner {
-  height: 340px;
+  height: 400px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/italy.jpg') no-repeat center / cover;
+    background: url('@/assets/image/florence.jpg') no-repeat center / cover;
 
     &::before {
       content: '';
@@ -59,6 +59,11 @@
       font-size: 28px;
       color: #f3f3f3;
       font-style: italic;
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
     }
     .tip {
       margin-top: 16px;
