@@ -12,7 +12,7 @@
       >{{ item }}</li>
     </ul>
 
-    <div class="title2 section-title">Important Dates(AoE)</div>
+    <div class="title2 section-title">Important Dates (AoE)</div>
     <ul class="list">
       <li class="item">
         <span class="label">Submission deadline:</span>
@@ -76,7 +76,7 @@ const list1 = [
 
 const list2 = [
   'Full papers: 6 pages (including references)',
-  'Short Paper: 2 pages (including references)'
+  'Short papers: 2 pages (including references)'
 ]
 </script>
 

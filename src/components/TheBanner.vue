@@ -48,7 +48,7 @@
     padding: 0 30px;
     color: #fff;
     .title {
-      font-size: 32px;
+      font-size: 40px;
       font-weight: bold;
       line-height: 1.2;
       text-align: center;
@@ -56,12 +56,12 @@
     .subtitle {
       text-align: center;
       margin-top: 10px;
-      font-size: 24px;
+      font-size: 28px;
       color: #f3f3f3;
       font-style: italic;
     }
     .tip {
-      margin-top: 12px;
+      margin-top: 16px;
       text-align: center;
       font-size: 20px;
     }
