@@ -2,8 +2,8 @@
   <div class="committees">
     <div class="title1  font-merri">Organizing Committee</div>
     <div class="title2 section-title">Program Co-Chairs</div>
-    <p class="pa-header p">Zheng Zheng, Beihang University, China</p>
-    <p class="pa-content p">Zheng Hu, Huawei Technologies Co., Ltd., China</p>
+    <p class="pa-header p">Joseph Sifakis, Vermag, Université Grenoble Alpes, France</p>
+    <p class="pa-content p">Zheng Zheng, Beihang University, China</p>
     <p class="pa-content p">Jianwen Xiang, Wuhan University of Technology, China</p>
 
     <div class="title2 section-title">Contact Us</div>
