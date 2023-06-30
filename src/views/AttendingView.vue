@@ -19,11 +19,11 @@
 
   .pa-content {
     line-height: 1.6;
-    margin-top: 14px;
+    margin-top: 1.4rem;
   }
 
   .section-title {
-    margin: 16px 0;
+    margin: 1.6rem 0;
   }
 }
 </style>

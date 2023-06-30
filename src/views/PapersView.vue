@@ -88,20 +88,20 @@ const list2 = [
 
   .pa-content {
     line-height: 1.6;
-    margin-top: 14px;
+    margin-top: 1.4rem;
   }
 
   .section-title {
-    margin: 16px 0;
+    margin: 1.4rem 0;
   }
 
   .list {
-    margin-top: 6px;
+    margin-top: 0.6rem;
     .item {
       color: #000;
-      font-size: 18px;
+      font-size: 1.8rem;
       line-height: 1.8;
-      margin-top: 6px;
+      margin-top: 0.6rem;
 
       &:first-child {
         margin-top: 0;
@@ -112,7 +112,7 @@ const list2 = [
       }
 
       .value {
-        margin-left: 8px;
+        margin-left: 0.8rem;
       }
     }
   }

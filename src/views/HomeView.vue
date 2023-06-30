@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="title1  font-merri">WDMD 2023</div>
+    <div class="title1 font-merri">WDMD 2023</div>
     <p class="pa pa-header p">Dependability Modeling and Design refers to the real interaction between business and dependability ability technology based on the support and capabilities provided by information technology.</p>
     <p class="pa pa-content p">With increasing complexity of critical systems such as industrial control systems, automobiles, robots, assessing and ensuring the reliability and safety, as well as other dependability aspects such as robustness, integrity, maintainability, and accountability becomes challenging for manufacturers, owners, and operators. For addressing these issues, advanced technologies, appropriate methodology, powerful modelling languages and tools, and shared conceptualization of dependability modelling and design are investigated. The WDMD seeks to bring together researchers and practitioners to exchange and discuss advanced researches and practical application in the areas of dependability modelling and design, with a focus on three topics: conceptual model for dependability, digitalization design for dependability, and software dependability.</p>
 
@@ -18,7 +18,7 @@
 <style lang="less" scoped>
 .home {
   .pa {
-    margin-top: 14px;
+    margin-top: 1.4 rem;
 
     &.pa-header {
       line-height: 1.8;
@@ -30,7 +30,7 @@
   }
 
   .section-title {
-    margin: 16px 0;
+    margin: 1.6rem 0;
   }
 }
 </style>

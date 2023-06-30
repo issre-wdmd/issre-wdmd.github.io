@@ -18,9 +18,9 @@ import TheBanner from '@/components/TheBanner.vue';
 <style lang="less" scoped>
 .common-layout {
   .container {
-    max-width: 1000px;
+    max-width: 100rem;
     margin: 0 auto;
-    padding: 24px 30px;
+    padding: 2.4rem 3rem;
   }
 }
 </style>

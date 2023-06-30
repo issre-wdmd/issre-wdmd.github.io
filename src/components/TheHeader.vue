@@ -27,7 +27,7 @@ const route = useRoute()
 
 <style lang="less" scoped>
 .menu {
-  padding: 0 20px;
+  padding: 0 2rem;
   justify-content: space-between;
   align-items: center;
 
@@ -38,6 +38,13 @@ const route = useRoute()
 
   .menu-right {
     display: flex;
+  }
+
+  :deep(.el-sub-menu__hide-arrow) {
+    .el-tooltip__trigger {
+      border-bottom: none;
+      padding-right: 0;
+    }
   }
 }
 </style>

@@ -15,7 +15,7 @@
 
 <style lang="less" scoped>
 .banner {
-  height: 400px;
+  height: 40rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -44,19 +44,19 @@
   }
   
   .text {
-    max-width: 1000px;
-    padding: 0 30px;
+    max-width: 100rem;
+    padding: 0 3rem;
     color: #fff;
     .title {
-      font-size: 40px;
+      font-size: 4rem;
       font-weight: bold;
       line-height: 1.2;
       text-align: center;
     }
     .subtitle {
       text-align: center;
-      margin-top: 10px;
-      font-size: 28px;
+      margin-top: 1rem;
+      font-size: 2.8rem;
       color: #f3f3f3;
       font-style: italic;
 
@@ -66,9 +66,9 @@
       }
     }
     .tip {
-      margin-top: 16px;
+      margin-top: 1.6rem;
       text-align: center;
-      font-size: 20px;
+      font-size: 2rem;
     }
   }
 }
