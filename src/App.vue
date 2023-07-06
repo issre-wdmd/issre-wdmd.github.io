@@ -2,6 +2,9 @@
 import { RouterView } from 'vue-router'
 import TheHeader from '@/components/TheHeader.vue';
 import TheBanner from '@/components/TheBanner.vue';
+import useLoading from '@/hooks/useLoading';
+
+useLoading()
 </script>
 
 <template>

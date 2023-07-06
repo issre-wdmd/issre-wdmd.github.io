@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import { useRootStore } from '@/stores/root'
 
 const routes = [
   {
@@ -33,6 +34,16 @@ const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior: () => ({ left: 0, top: 0 })
+})
+
+router.beforeEach(() => {
+  const root = useRootStore()
+  root.setLoading(true)
+})
+
+router.afterEach(() => {
+  const root = useRootStore()
+  root.setLoading(false)
 })
 
 export default router
