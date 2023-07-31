@@ -16,7 +16,9 @@
     <ul class="list">
       <li class="item">
         <span class="label">Submission deadline:</span>
-        <span class="value">July 31th, 2023</span>
+        <span class="value">August 15, 2023</span>
+        <span class="value">(FIRM)</span>
+        <span class="value de">July 31, 2023</span>
       </li>
       <li class="item">
         <span class="label">Notification deadline:</span>
@@ -113,6 +115,11 @@ const list2 = [
 
       .value {
         margin-left: 0.8rem;
+      }
+
+      .de {
+        text-decoration: line-through;
+        color: #666;
       }
     }
   }
