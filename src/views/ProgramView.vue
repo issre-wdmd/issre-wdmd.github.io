@@ -44,10 +44,10 @@ interface MethodProps {
 
 const tableData: Data[] = [
   { startTime: '9:00', endTime: '9:30', topic: 'Keynote', speaker: 'HUAWEI', duration: '30 mins' },
-  { startTime: '9:30', endTime: '10:00', topic: 'Keynote', speaker: 'Joseph Sifakis', duration: '30 mins' },
+  { startTime: '9:30', endTime: '10:00', topic: 'Keynote', speaker: 'Prof.Joseph Sifakis', duration: '30 mins' },
   { startTime: '10:00', endTime: '10:30', topic: 'Tea Break', speaker: '', duration: '30 mins' },
-  { startTime: '10:30', endTime: '11:00', topic: 'Keynote', speaker: 'Zheng Zheng', duration: '30 mins' },
-  { startTime: '11:00', endTime: '11:30', topic: 'Keynote', speaker: 'Domenico Cotroneo', duration: '30 mins' },
+  { startTime: '10:30', endTime: '11:00', topic: 'Keynote', speaker: 'Prof.Zheng Zheng', duration: '30 mins' },
+  { startTime: '11:00', endTime: '11:30', topic: 'Keynote', speaker: 'Prof.Domenico Cotroneo', duration: '30 mins' },
   { startTime: '11:30', endTime: '12:30', topic: 'Panel', speaker: 'TBD', duration: '60 mins' },
   { startTime: '12:30', endTime: '14:00', topic: 'Lunch Break', speaker: '', duration: '1.5 hours' },
 
@@ -60,7 +60,7 @@ const tableData: Data[] = [
   { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Changgang Zheng', duration: '20 mins' },
   { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Fenghua Wang', duration: '20 mins' },
   { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Xinpeng Hong', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Li Zuo', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Chi Hong', duration: '20 mins' },
 
   { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: '', duration: '' },
   { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
