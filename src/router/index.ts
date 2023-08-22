@@ -9,6 +9,10 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/program',
+    component: () => import('@/views/ProgramView.vue')
+  },
+  {
     path: '/participation',
     component: () => import('@/views/ParticipationView.vue')
   },

@@ -9,6 +9,7 @@
       <div class="logo">WDMD 2023</div>
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
+        <el-menu-item index="/program">PROGRAM</el-menu-item>
         <el-menu-item index="/papers">CALL FOR PAPERS</el-menu-item>
         <el-menu-item index="/participation">CALL FOR PARTICIPATION</el-menu-item>
         <el-menu-item index="/keynote/speakers">KEYNOTE SPEAKERS</el-menu-item>
