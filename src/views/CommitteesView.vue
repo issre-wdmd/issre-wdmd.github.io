@@ -6,6 +6,21 @@
     <p class="pa-content p">Zheng Zheng, Beihang University, China</p>
     <p class="pa-content p">Jianwen Xiang, Wuhan University of Technology, China</p>
 
+    <div class="title2 section-title">Program Committee</div>
+    <p class="pa-header p">Shenglin Zhang, Nankai University, China</p>
+    <p class="pa-content p">Haojun Huang, Huazhong University of Science and Technology, China</p>
+    <p class="pa-content p">Zhen Gao, Tianjin University, China</p>
+    <p class="pa-content p">Min Zhang, East China Normal University, China</p>
+    <p class="pa-content p">Dehui Du, East China Normal University, China</p>
+    <p class="pa-content p">Liyan Song, Southern University of Science and Technology, China</p>
+    <p class="pa-content p">Zheng Hu, Huawei Technologies Co., Ltd, China</p>
+    <p class="pa-content p">Xiao Chen, Huawei Technologies Co., Ltd, China</p>
+    <p class="pa-content p">Chengqiang Huang, Huawei Technologies Co., Ltd, China</p>
+    <p class="pa-content p">Hezhen Liu, Huawei Technologies Co., Ltd, China</p>
+    <p class="pa-content p">Ke Pei, Huawei Technologies Co., Ltd, Germany</p>
+    <p class="pa-content p">Feng Liu, Huawei Technologies Co., Ltd, Germany</p>
+    <p class="pa-content p">Vivek Nigam, Huawei Technologies Co., Ltd, Germany</p>
+
     <div class="title2 section-title">Contact Us</div>
     <p class="pa-header p"><mark>issre_wdmd@163.com</mark></p>
     <p class="pa-content p">For all questions regarding paper process, submissions, or the technical program.</p>
