@@ -66,7 +66,7 @@ const tableData: Data[] = [
   { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
   { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
   { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
-  { startTime: '18:00', endTime: '', topic: 'Closing and Invited Dinner', speaker: '', duration: '- mins' },
+  { startTime: '18:00', endTime: '', topic: 'Closing', speaker: '', duration: '- mins' },
 ]
 
 const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
