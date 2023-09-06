@@ -51,30 +51,32 @@ const tableData: Data[] = [
   { startTime: '11:30', endTime: '12:30', topic: 'Panel', speaker: 'TBD', duration: '60 mins' },
   { startTime: '12:30', endTime: '14:00', topic: 'Lunch Break', speaker: '', duration: '1.5 hours' },
 
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctoral Symposium', speaker: '', duration: '' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Jiawei Meng', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Jiyue Huang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Yuning Jiang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Baiwei Guo', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Tea Break', speaker: '', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Changgang Zheng', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Fenghua Wang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Xinpeng Hong', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:00', topic: 'Doctor Presentation', speaker: 'Chi Hong', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctoral Symposium', speaker: '', duration: '' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Jiawei Meng', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Jiyue Huang', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Yuning Jiang', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Baiwei Guo', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Tea Break', speaker: '', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Changgang Zheng', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Fenghua Wang', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Xinpeng Hong', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Chi Hong', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Doctor Presentation', speaker: 'Xiao Wang', duration: '20 mins' },
+  { startTime: '14:00', endTime: '17:35', topic: 'Tea Break', speaker: '', duration: '15 mins' },
 
-  { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: '', duration: '' },
-  { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
-  { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
-  { startTime: '17:00', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '20 mins' },
-  { startTime: '18:00', endTime: '', topic: 'Closing', speaker: '', duration: '- mins' },
+  { startTime: '17:35', endTime: '18:05', topic: 'Poster Presentation', speaker: '', duration: '' },
+  { startTime: '17:35', endTime: '18:05', topic: 'Poster Presentation', speaker: 'TBD', duration: '10 mins' },
+  { startTime: '17:35', endTime: '18:05', topic: 'Poster Presentation', speaker: 'TBD', duration: '10 mins' },
+  { startTime: '17:35', endTime: '18:05', topic: 'Poster Presentation', speaker: 'TBD', duration: '10 mins' },
+  { startTime: '18:05', endTime: '', topic: 'Closing', speaker: '', duration: '- mins' },
 ]
 
 const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
-  if (rowIndex === 2 || rowIndex === 6 || rowIndex === 12 || rowIndex === 21) {
+  if (rowIndex === 2 || rowIndex === 6 || rowIndex === 12 || rowIndex === 18 || rowIndex === 23) {
     if (columnIndex > 0) {
       return 'rest'
     }
-  } else if (rowIndex === 7 || rowIndex === 17) {
+  } else if (rowIndex === 7 || rowIndex === 19) {
     if (columnIndex > 0) {
       return 'title'
     }
@@ -84,12 +86,12 @@ const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
 const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
   if (columnIndex === 0) {
     if (rowIndex === 7) {
-      return [10, 1]
-    } else if (rowIndex > 7 && rowIndex < 17) {
+      return [12, 1]
+    } else if (rowIndex > 7 && rowIndex < 19) {
       return [0, 0]
-    } else if (rowIndex === 17) {
+    } else if (rowIndex === 19) {
       return [4, 1]
-    } else if (rowIndex > 17 && rowIndex < 21) {
+    } else if (rowIndex > 19 && rowIndex < 23) {
       return [0, 0]
     }
   }
