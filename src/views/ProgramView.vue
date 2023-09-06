@@ -45,11 +45,11 @@ interface MethodProps {
 const tableData: Data[] = [
   { startTime: '9:00', endTime: '9:30', topic: 'Keynote', speaker: 'HUAWEI', duration: '30 mins' },
   { startTime: '9:30', endTime: '10:00', topic: 'Keynote', speaker: 'Prof. Joseph Sifakis', duration: '30 mins' },
-  { startTime: '10:00', endTime: '10:20', topic: 'Tea Break', speaker: '', duration: '20 mins' },
-  { startTime: '10:20', endTime: '10:50', topic: 'Keynote', speaker: 'Prof. Zheng Zheng', duration: '30 mins' },
-  { startTime: '10:50', endTime: '11:20', topic: 'Keynote', speaker: 'Prof. Domenico Cotroneo', duration: '30 mins' },
-  { startTime: '11:20', endTime: '11:50', topic: 'Keynote', speaker: 'Prof. Ryan Cotterell', duration: '30 mins' },
-  { startTime: '11:50', endTime: '12:30', topic: 'Panel', speaker: 'TBD', duration: '40 mins' },
+  { startTime: '10:00', endTime: '10:30', topic: 'Keynote', speaker: 'Prof. Zheng Zheng', duration: '30 mins' },
+  { startTime: '10:30', endTime: '10:45', topic: 'Tea Break', speaker: '', duration: '15 mins' },
+  { startTime: '10:45', endTime: '11:15', topic: 'Keynote', speaker: 'Prof. Domenico Cotroneo', duration: '30 mins' },
+  { startTime: '11:15', endTime: '11:45', topic: 'Keynote', speaker: 'Prof. Ryan Cotterell', duration: '30 mins' },
+  { startTime: '11:45', endTime: '12:30', topic: 'Panel', speaker: 'TBD', duration: '45 mins' },
   { startTime: '12:30', endTime: '14:00', topic: 'Lunch Break', speaker: '', duration: '1.5 hours' },
 
   { startTime: '14:00', endTime: '17:30', topic: 'Doctoral Symposium', speaker: '', duration: '' },
@@ -73,7 +73,7 @@ const tableData: Data[] = [
 ]
 
 const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
-  if (rowIndex === 2 || rowIndex === 7 || rowIndex === 13 || rowIndex === 19 || rowIndex === 24) {
+  if (rowIndex === 3 || rowIndex === 7 || rowIndex === 13 || rowIndex === 19 || rowIndex === 24) {
     if (columnIndex > 0) {
       return 'rest'
     }
