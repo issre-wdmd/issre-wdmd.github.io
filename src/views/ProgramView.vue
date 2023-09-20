@@ -8,7 +8,7 @@
       :cell-class-name="cellClassName"
       :span-method="spanMethod"
     >
-      <el-table-column prop="time" label="Time" header-align="center">
+      <el-table-column prop="time" label="Begin-End" header-align="center" width="140px">
         <template #default="scope">
           <span>
             <span>{{ scope.row.startTime }}</span>
@@ -17,9 +17,15 @@
           </span>
         </template>
       </el-table-column>
-      <el-table-column prop="topic" label="Topic" header-align="center" />
-      <el-table-column prop="speaker" label="Speaker" header-align="center" />
-      <el-table-column prop="duration" label="Duration" header-align="center" />
+      <el-table-column prop="subject" label="Subject" header-align="center">
+        <template #default="scope">
+          <div v-if="scope.row.tip" class="tip" :class="{ bold: !scope.row.thin }">{{ scope.row.tip }}</div>
+          <template v-else>
+            <div class="keynote" :class="{ bold: !scope.row.thin }">{{ scope.row.title }}</div>
+            <i v-if="scope.row.speaker" class="speaker">{{ scope.row.speaker }}</i>
+          </template>
+        </template>
+      </el-table-column>
     </el-table>
   </div>
 </template>
@@ -30,9 +36,11 @@ import type { TableColumnCtx } from 'element-plus'
 interface Data {
   startTime: string
   endTime: string
-  topic: string
-  speaker: string
-  duration: string
+  topic?: string
+  speaker?: string
+  title?: string
+  tip?: string
+  thin?: boolean
 }
 
 interface MethodProps {
@@ -43,37 +51,39 @@ interface MethodProps {
 }
 
 const tableData: Data[] = [
-  { startTime: '9:00', endTime: '9:30', topic: 'Keynote', speaker: 'HUAWEI', duration: '30 mins' },
-  { startTime: '9:30', endTime: '10:00', topic: 'Keynote', speaker: 'Prof. Joseph Sifakis', duration: '30 mins' },
-  { startTime: '10:00', endTime: '10:30', topic: 'Keynote', speaker: 'Prof. Zheng Zheng', duration: '30 mins' },
-  { startTime: '10:30', endTime: '10:45', topic: 'Tea Break', speaker: '', duration: '15 mins' },
-  { startTime: '10:45', endTime: '11:15', topic: 'Keynote', speaker: 'Prof. Domenico Cotroneo', duration: '30 mins' },
-  { startTime: '11:15', endTime: '11:45', topic: 'Keynote', speaker: 'Prof. Ryan Cotterell', duration: '30 mins' },
-  { startTime: '11:45', endTime: '12:30', topic: 'Panel', speaker: 'TBD', duration: '45 mins' },
-  { startTime: '12:30', endTime: '14:00', topic: 'Lunch Break', speaker: '', duration: '1.5 hours' },
+  { startTime: '9:20', endTime: '9:30', speaker: 'Dr. Chengqiang Huang (Huawei Technologies Co., Ltd.)', title: 'Opening: Explorations and Practices Towards a Reliable Intelligent System'
+  },
+  { startTime: '9:30', endTime: '10:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 2: Trustworthy Intelligent Systems – A Daunting Challenge' },
+  { startTime: '10:00', endTime: '10:30', tip: 'Tea Break', thin: true },
+  { startTime: '10:30', endTime: '11:00', speaker: 'Prof. Zheng Zheng (Beihang University)', title: 'Keynote 3: Bugs with "intelligence" and intelligence with bugs' },
+  { startTime: '11:00', endTime: '11:30', speaker: 'Prof. Domenico Cotroneo (University of Naples Federico II)', title: 'Keynote 4: Unveiling the Veil: Towards the Trustworthiness of AI Code Generators' },
+  { startTime: '11:30', endTime: '12:00', speaker: 'Ryan Cotterell (ETH Zürich)', title: 'Keynote 5: TBD', thin: true },
+  { startTime: '12:00', endTime: '12:30', title: 'Panel: How Big Language Models help in Software Dependability Engineering' },
+  { startTime: '12:30', endTime: '14:00', tip: 'Lunch Break', thin: true },
 
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctoral Symposium', speaker: '', duration: '' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Jiawei Meng', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Jiyue Huang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Yuning Jiang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Baiwei Guo', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Tea Break', speaker: '', duration: '15 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Changgang Zheng', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Fenghua Wang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Xinpeng Hong', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Chi Hong', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Doctor Presentation', speaker: 'Xiao Wang', duration: '20 mins' },
-  { startTime: '14:00', endTime: '17:30', topic: 'Tea Break', speaker: '', duration: '15 mins' },
+  { startTime: '14:00', endTime: '17:00', tip: 'Doctoral Symposium' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Jiawei Meng', title: 'TBD', thin: true },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Jiyue Huang', title: 'TBD', thin: true },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Yuning Jiang', title: 'TBD', thin: true },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Baiwei Guo', title: 'Safe Zeroth-Order Optimization Using Local Proxies' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Ni Dang', title: 'TBD', thin: true },
+  { startTime: '14:00', endTime: '17:00', tip: 'Tea Break' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Changgang Zheng', title: 'TBD', thin: true },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Fenghua Wang', title: 'Robustness and Recoverability of Network Controllability with respect to Node Removals' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Xinpeng Hong', title: 'TBD', thin: true },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Chi Hong', title: 'Training-time Attacks and Defenses of Distributed Learning' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Xiao Wang', title: 'Safe Reinforcement Learning for Autonomous Vehicles' },
 
-  { startTime: '17:30', endTime: '18:00', topic: 'Poster Presentation', speaker: '', duration: '' },
-  { startTime: '17:30', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '10 mins' },
-  { startTime: '17:30', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '10 mins' },
-  { startTime: '17:30', endTime: '18:00', topic: 'Poster Presentation', speaker: 'TBD', duration: '10 mins' },
-  { startTime: '18:00', endTime: '', topic: 'Closing', speaker: '', duration: '- mins' },
+  { startTime: '17:00', endTime: '18:00', tip: 'Accepted Paper Presentation' },
+  { startTime: '17:00', endTime: '18:00', speaker: 'Shiming Liu, Qunli Zhang, Wei Li, Siyun Yao, Yucheng Mu and Zheng Hu', title: 'Runtime operational design domain monitoring of static road geometry for automated vehicles' },
+  { startTime: '17:00', endTime: '18:00', speaker: 'Xiaolei Yu, Kai Jia, Wenhua Hu, Jing Tian and Jianwen Xiang', title: 'Black-Box Test Case Prioritization Using Log Analysis and Test Case Diversity' },
+  { startTime: '17:00', endTime: '18:00', speaker: 'Peng Wang, Qingyang Xu, Siyun Yao, Xiangfei Wu, Qunli Zhang, et al.', title: 'A robust online extrinsic calibration method for GNSS-RTK and IMU system and vehicle setups' },
+  { startTime: '17:00', endTime: '18:00', speaker: 'Wenyi Fang, Hao Zhang, Ziyu Gong, Longbin Zeng, Xuhui Lu, Biao Liu, et al.', title: 'A Survey of Approaches to Enhance Training Dependability in Large Language Models' },
+  { startTime: '18:00', endTime: '', tip: 'Closing and Invited Dinner', thin: true },
 ]
 
 const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
-  if (rowIndex === 3 || rowIndex === 7 || rowIndex === 13 || rowIndex === 19 || rowIndex === 24) {
+  if (rowIndex === 2 || rowIndex === 7 || rowIndex === 14 || rowIndex === 19 || rowIndex === 25) {
     if (columnIndex > 0) {
       return 'rest'
     }
@@ -91,8 +101,8 @@ const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
     } else if (rowIndex > 8 && rowIndex < 20) {
       return [0, 0]
     } else if (rowIndex === 20) {
-      return [4, 1]
-    } else if (rowIndex > 20 && rowIndex < 24) {
+      return [5, 1]
+    } else if (rowIndex > 20 && rowIndex < 25) {
       return [0, 0]
     }
   }
@@ -112,6 +122,26 @@ const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
   }
   :deep(.title) {
     background-color: #C2C2C2;
+  }
+
+  .keynote {
+    color: #000;
+    font-size: 1.6rem;
+  }
+
+  .speaker {
+    color: #333;
+  }
+
+  .tip {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.8;
+  }
+
+  .bold {
+    font-weight: bold;
   }
 }
 </style>
