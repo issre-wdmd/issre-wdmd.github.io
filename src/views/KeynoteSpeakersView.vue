@@ -12,7 +12,7 @@
       <li class="item">A shift from verification to empirical validation using test and simulation, which in principle does not allow confidence levels achieved using model-based methods. </li>
       <li class="item">A better integration of design for dependability into the system development cycle, by jointly addressing safety and security issues, and relying heavily on automated tools.</li>
     </ul>
-    <p class="pa-header p">We advocate the need for a new foundation for system design that responds to these needs, leveraging knowledge management to compensate for weaknesses arising from the obsolescence of model-based techniques.</p>
+    <p class="pa-content p">We advocate the need for a new foundation for system design that responds to these needs, leveraging knowledge management to compensate for weaknesses arising from the obsolescence of model-based techniques.</p>
     <div class="title3">Bio</div>
     <p class="pa-content p">Professor Joseph Sifakis is Emeritus Research Director at Verimag. He has been a full professor at Ecole Polytechnique Fédérale de Lausanne (EPFL) for the period 2011-2016. He is the founder of the Verimag laboratory in Grenoble, a leading laboratory in the area of safety critical systems that he directed for 13 years.</p>
     <p class="pa-content p">Joseph Sifakis has made significant and internationally recognized contributions to the design of trustworthy systems in many application areas, including avionics and space systems, telecommunications, and production systems. His current research focuses on autonomous systems, in particular self-driving cars and autonomous telecommunication systems. In 2007, he received the Turing Award, recognized as the "highest distinction in computer science", for his contribution to the theory and application of model checking, the most widely used system verification technique. </p>
@@ -47,12 +47,8 @@
 
   .title3 {
     color: #040a3f;
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-  }
-
-  .pa-header {
-    line-height: 1.8;
   }
 
   .pa-content {
