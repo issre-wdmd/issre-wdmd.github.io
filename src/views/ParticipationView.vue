@@ -1,6 +1,6 @@
 <template>
   <div class="participation">
-    <p class="pa-header p">The WDMD 2023 workshop will be co-located with ISSRE 2023 (<a href="https://issre.github.io/2023/" target="_blank">https://issre.github.io/2023/</a>), and will take place in Florence, Italy, between October 9-12, 2023.</p>
+    <p class="pa-header p">The WDMD 2023 workshop will be co-located with ISSRE 2023 (<a href="https://issre.github.io/2023/" target="_blank">https://issre.github.io/2023/</a>), and will take place in Florence, Italy, on October 10, 2023.</p>
     <div class="title2">Registration</div>
     <p class="pa-header p">The registration process is managed by the ISSRE committee. Options are available for registering for the full week of the ISSRE conference and for one-day registrations for just the day of the workshop. More information is available at: </p>
     <p class="pa-header p"><a href="https://issre.github.io/2023/attend_registration.html" target="_blank">https://issre.github.io/2023/attend_registration.html</a></p>

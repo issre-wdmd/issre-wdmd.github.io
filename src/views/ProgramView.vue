@@ -1,5 +1,6 @@
 <template>
   <div class="program">
+    <div class="date">Tuesday, October 10th</div>
     <el-table
       :data="tableData"
       border
@@ -110,8 +111,14 @@ const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
 
 <style lang="less" scoped>
 .program {
-  :deep(.header) {
+  .date {
+    font-weight: bold;
+    line-height: 4.5rem;
     background-color: #b86a6a;
+    padding: 0 1rem;
+  }
+
+  :deep(.header) {
     color: #333;
     > div {
       font-weight: bold;

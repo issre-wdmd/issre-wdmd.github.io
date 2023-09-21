@@ -5,7 +5,7 @@
       <h2 class="title font-lato">WDMD 2023: 2nd International Workshop on </h2>
       <h2 class="title font-lato">Dependability Modeling and Design</h2>
       <div class="subtitle">Co-located with <a href="https://issre.github.io/2023/" target="_blank">ISSRE 2023</a></div>
-      <div class="tip font-merri">October 9-12, Florence, Italy</div>
+      <div class="tip font-merri">October 10-12, Florence, Italy</div>
     </div>
   </div>
 </template>
