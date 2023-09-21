@@ -94,6 +94,8 @@
       </div>
     </div>
 
+    <el-divider />
+    
     <div class="title2 section-title">Ryan Cotterell, ETH Zürich</div>
     <p class="pa-content p">TBD</p>
   </div>
