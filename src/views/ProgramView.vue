@@ -113,7 +113,6 @@ const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
   :deep(.header) {
     background-color: #b86a6a;
     color: #333;
-    // font-size: 20px;
     > div {
       font-weight: bold;
       font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
