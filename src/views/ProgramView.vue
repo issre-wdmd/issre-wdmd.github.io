@@ -51,7 +51,7 @@ interface MethodProps {
 }
 
 const tableData: Data[] = [
-  { startTime: '9:20', endTime: '9:30', speaker: 'Dr. Chengqiang Huang (Huawei Technologies Co., Ltd.)', title: 'Opening: Explorations and Practices Towards a Reliable Intelligent System'
+  { startTime: '9:20', endTime: '9:30', speaker: 'Dr. Jin Wang (Huawei Technologies Co., Ltd.)', title: 'Opening: Explorations and Practices Towards a Reliable Intelligent System'
   },
   { startTime: '9:30', endTime: '10:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 1: Trustworthy Intelligent Systems – A Daunting Challenge' },
   { startTime: '10:00', endTime: '10:30', tip: 'Tea Break' },
@@ -64,13 +64,13 @@ const tableData: Data[] = [
   { startTime: '14:00', endTime: '17:00', tip: 'Doctoral Symposium' },
   { startTime: '14:00', endTime: '17:00', speaker: 'Jiawei Meng', title: 'TBD' },
   { startTime: '14:00', endTime: '17:00', speaker: 'Jiyue Huang', title: 'TBD' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Yuning Jiang', title: 'TBD' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Yuning Jiang', title: 'Data-driven Design and Operation of Complex Intelligent Systems: An Interplay between Control, Learning and Optimization' },
   { startTime: '14:00', endTime: '17:00', speaker: 'Baiwei Guo', title: 'Safe Zeroth-Order Optimization Using Local Proxies' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Ni Dang', title: 'TBD' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Ni Dang', title: 'Distributed Stochastic Model Predictive Control for a Microscopic Interactive Traffic Model' },
   { startTime: '14:00', endTime: '17:00', tip: 'Tea Break' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Changgang Zheng', title: 'TBD' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Changgang Zheng', title: 'Do Switches Dream of Machine Learning?: Toward In-Network Classification' },
   { startTime: '14:00', endTime: '17:00', speaker: 'Fenghua Wang', title: 'Robustness and Recoverability of Network Controllability with respect to Node Removals' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Xinpeng Hong', title: 'TBD' },
+  { startTime: '14:00', endTime: '17:00', speaker: 'Xinpeng Hong', title: 'In-network machine learning for limit order books' },
   { startTime: '14:00', endTime: '17:00', speaker: 'Chi Hong', title: 'Training-time Attacks and Defenses of Distributed Learning' },
   { startTime: '14:00', endTime: '17:00', speaker: 'Xiao Wang', title: 'Safe Reinforcement Learning for Autonomous Vehicles' },
 
