@@ -44,17 +44,24 @@
       <div class="pa">
         <p>
           <span class="bold">Keynote: </span>
-          <span>&nbsp;Bugs with "intelligence" and intelligence with bugs</span>
+          <span>&nbsp;Reliability and Testing of Reinforcement Learning Systems</span>
         </p>
       </div>
 
       <div class="pa">
         <p>
           <span class="bold">Abstract: </span>
-          <span class="italic">&nbsp;Fault triggering conditions are usually complex, involving not only the workload but also the interaction with execution environment. According to the complexity of fault activation and/or error propagation conditions, bugs were classified into Bohrbugs and Mandelbugs, in which the activation and/or error propagation of Mandelbugs are complex. They make the system show a phenomenon of “intelligence”, exhibiting chaotic and even non-deterministic behavior during operation. In the first part of this presentation, the characteristics of this type of bugs are illustrated by the empirical studies on several traditional software systems.</span>
+          <span class="italic">&nbsp;As reinforcement learning (RL) systems proliferate across various domains, ensuring their reliability becomes crucial. This presentation provides a comprehensive examination of RL system reliability and testing, focusing on their unique characteristics. The topics include:</span>
         </p>
 
-        <p class="italic indent">In the second part of this presentation, we will investigate the bug characteristics and root causes of different bug types in three widely used deep learning frameworks and five popular deep learning compilers, and will compare it with those in traditional software systems. Nowadays, various DL models with different architectures, such as CNN, RNN and GNN have been designed to deal with different artificial intelligence tasks. As the foundation to support the training process and runtime inference, multiple popular DL frameworks have been developed so far. However, it is still a challenge for DL frameworks to handle diverse hardware-specific transformations and DL model deployment across various target devices. To address this problem, several popular DL compilers have been proposed. The presentation in this part can help researchers understand bugs in the process of constructing and deploying DL models.</p>
+        <ul>
+          <li class="italic indent">Analysis of reliability and testing attributes of RL systems.</li>
+          <li class="italic indent">Construction of metamorphic relations tailored for RL.</li>
+          <li class="italic indent">Introduction of coverage metrics specific to RL scenarios.</li>
+          <li class="italic indent">Methods for generating test cases for RL environments.</li>
+        </ul>
+
+        <p class="italic indent">The talk offers insights into the challenges and methodologies for validating and ensuring the robustness of reinforcement learning systems in diverse applications.</p>
       </div>
 
       <div>

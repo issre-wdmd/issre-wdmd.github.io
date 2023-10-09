@@ -51,43 +51,43 @@ interface MethodProps {
 }
 
 const tableData: Data[] = [
-  { startTime: '9:20', endTime: '9:30', speaker: 'Dr. Jin Wang (Huawei Technologies Co., Ltd.)', title: 'Opening: Explorations and Practices Towards a Reliable Intelligent System'
+  { startTime: '10:20', endTime: '10:30', speaker: 'Dr. Jin Wang (Huawei Technologies Co., Ltd.)', title: 'Opening: Explorations and Practices Towards a Reliable Intelligent System'
   },
-  { startTime: '9:30', endTime: '10:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 1: Trustworthy Intelligent Systems – A Daunting Challenge' },
-  { startTime: '10:00', endTime: '10:30', tip: 'Tea Break' },
-  { startTime: '10:30', endTime: '11:00', speaker: 'Prof. Zheng Zheng (Beihang University)', title: 'Keynote 2: Bugs with "intelligence" and intelligence with bugs' },
-  { startTime: '11:00', endTime: '11:30', speaker: 'Prof. Domenico Cotroneo (University of Naples Federico II)', title: 'Keynote 3: Unveiling the Veil: Towards the Trustworthiness of AI Code Generators' },
-  { startTime: '11:30', endTime: '12:00', speaker: 'Ryan Cotterell (ETH Zürich)', title: 'Keynote 4: TBD' },
+  { startTime: '10:30', endTime: '11:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 1: Trustworthy Intelligent Systems – A Daunting Challenge' },
+  // { startTime: '10:00', endTime: '10:30', tip: 'Tea Break' },
+  { startTime: '11:00', endTime: '11:30', speaker: 'Prof. Zheng Zheng (Beihang University)', title: 'Keynote 2: Reliability and Testing of Reinforcement Learning Systems' },
+  { startTime: '11:30', endTime: '12:00', speaker: 'Prof. Domenico Cotroneo (University of Naples Federico II)', title: 'Keynote 3: Unveiling the Veil: Towards the Trustworthiness of AI Code Generators' },
+  // { startTime: '11:30', endTime: '12:00', speaker: 'Ryan Cotterell (ETH Zürich)', title: 'Keynote 4: TBD' },
   { startTime: '12:00', endTime: '12:30', title: 'Panel: How Big Language Models help in Software Dependability Engineering' },
   { startTime: '12:30', endTime: '14:00', tip: 'Lunch Break' },
 
-  { startTime: '14:00', endTime: '17:00', tip: 'Doctoral Symposium' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Jiawei Meng', title: 'TBD' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Jiyue Huang', title: 'TBD' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Yuning Jiang', title: 'Data-driven Design and Operation of Complex Intelligent Systems: An Interplay between Control, Learning and Optimization' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Baiwei Guo', title: 'Safe Zeroth-Order Optimization Using Local Proxies' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Ni Dang', title: 'Distributed Stochastic Model Predictive Control for a Microscopic Interactive Traffic Model' },
-  { startTime: '14:00', endTime: '17:00', tip: 'Tea Break' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Changgang Zheng', title: 'Do Switches Dream of Machine Learning?: Toward In-Network Classification' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Fenghua Wang', title: 'Robustness and Recoverability of Network Controllability with respect to Node Removals' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Xinpeng Hong', title: 'In-network machine learning for limit order books' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Chi Hong', title: 'Training-time Attacks and Defenses of Distributed Learning' },
-  { startTime: '14:00', endTime: '17:00', speaker: 'Xiao Wang', title: 'Safe Reinforcement Learning for Autonomous Vehicles' },
+  { startTime: '14:00', endTime: '16:35', tip: 'Doctoral Symposium' },
+  // { startTime: '14:00', endTime: '16:35', speaker: 'Jiawei Meng', title: 'TBD' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Jiyue Huang', title: 'Training-time Attacks and Defenses of Distributed Learning' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Yuning Jiang', title: 'Data-driven Design and Operation of Complex Intelligent Systems: An Interplay between Control, Learning and Optimization' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Baiwei Guo', title: 'Safe Zeroth-Order Optimization Using Local Proxies' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Ni Dang', title: 'Distributed Stochastic Model Predictive Control for a Microscopic Interactive Traffic Model' },
+  { startTime: '14:00', endTime: '16:35', tip: 'Tea Break' },
+  // { startTime: '14:00', endTime: '16:35', speaker: 'Changgang Zheng', title: 'Do Switches Dream of Machine Learning?: Toward In-Network Classification' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Fenghua Wang', title: 'Robustness and Recoverability of Network Controllability with respect to Node Removals' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Xinpeng Hong', title: 'In-network machine learning for limit order books' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Chi Hong', title: 'Training-time Attacks and Defenses of Distributed Learning' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Xiao Wang', title: 'Safe Reinforcement Learning for Autonomous Vehicles' },
 
-  { startTime: '17:00', endTime: '18:00', tip: 'Accepted Paper Presentation' },
-  { startTime: '17:00', endTime: '18:00', speaker: 'Shiming Liu, Qunli Zhang, Wei Li, Siyun Yao, Yucheng Mu and Zheng Hu', title: 'Runtime operational design domain monitoring of static road geometry for automated vehicles' },
-  { startTime: '17:00', endTime: '18:00', speaker: 'Xiaolei Yu, Kai Jia, Wenhua Hu, Jing Tian and Jianwen Xiang', title: 'Black-Box Test Case Prioritization Using Log Analysis and Test Case Diversity' },
-  { startTime: '17:00', endTime: '18:00', speaker: 'Peng Wang, Qingyang Xu, Siyun Yao, Xiangfei Wu, Qunli Zhang, et al.', title: 'A robust online extrinsic calibration method for GNSS-RTK and IMU system and vehicle setups' },
-  { startTime: '17:00', endTime: '18:00', speaker: 'Wenyi Fang, Hao Zhang, Ziyu Gong, Longbin Zeng, Xuhui Lu, Biao Liu, et al.', title: 'A Survey of Approaches to Enhance Training Dependability in Large Language Models' },
-  { startTime: '18:00', endTime: '', tip: 'Closing and Invited Dinner' },
+  { startTime: '16:35', endTime: '17:35', tip: 'Accepted Paper Presentation' },
+  { startTime: '16:35', endTime: '17:35', speaker: 'Shiming Liu, Qunli Zhang, Wei Li, Siyun Yao, Yucheng Mu and Zheng Hu', title: 'Runtime operational design domain monitoring of static road geometry for automated vehicles' },
+  { startTime: '16:35', endTime: '17:35', speaker: 'Xiaolei Yu, Kai Jia, Wenhua Hu, Jing Tian and Jianwen Xiang', title: 'Black-Box Test Case Prioritization Using Log Analysis and Test Case Diversity' },
+  { startTime: '16:35', endTime: '17:35', speaker: 'Peng Wang, Qingyang Xu, Siyun Yao, Xiangfei Wu, Qunli Zhang, et al.', title: 'A robust online extrinsic calibration method for GNSS-RTK and IMU system and vehicle setups' },
+  { startTime: '16:35', endTime: '17:35', speaker: 'Wenyi Fang, Hao Zhang, Ziyu Gong, Longbin Zeng, Xuhui Lu, Biao Liu, et al.', title: 'A Survey of Approaches to Enhance Training Dependability in Large Language Models' },
+  { startTime: '17:35', endTime: '', tip: 'Closing and Dinner' },
 ]
 
 const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
-  if (rowIndex === 2 || rowIndex === 7 || rowIndex === 14 || rowIndex === 25) {
+  if (rowIndex === 5 || rowIndex === 11 || rowIndex === 21) {
     if (columnIndex > 0) {
       return 'rest'
     }
-  } else if (rowIndex === 8 || rowIndex === 20) {
+  } else if (rowIndex === 6 || rowIndex === 16) {
     if (columnIndex > 0) {
       return 'title'
     }
@@ -96,13 +96,13 @@ const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
 
 const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
   if (columnIndex === 0) {
-    if (rowIndex === 8) {
-      return [12, 1]
-    } else if (rowIndex > 8 && rowIndex < 20) {
+    if (rowIndex === 6) {
+      return [10, 1]
+    } else if (rowIndex > 6 && rowIndex < 16) {
       return [0, 0]
-    } else if (rowIndex === 20) {
+    } else if (rowIndex === 16) {
       return [5, 1]
-    } else if (rowIndex > 20 && rowIndex < 25) {
+    } else if (rowIndex > 16 && rowIndex < 21) {
       return [0, 0]
     }
   }
