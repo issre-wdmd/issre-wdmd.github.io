@@ -67,7 +67,7 @@ const tableData: Data[] = [
   { startTime: '14:00', endTime: '16:35', tip: 'Tea Break' },
   { startTime: '14:00', endTime: '16:35', speaker: 'Fenghua Wang', title: 'Robustness and Recoverability of Network Controllability with respect to Node Removals' },
   { startTime: '14:00', endTime: '16:35', speaker: 'Xinpeng Hong', title: 'In-network machine learning for limit order books' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Chi Hong', title: 'Training-time Attacks and Defenses of Distributed Learning' },
+  { startTime: '14:00', endTime: '16:35', speaker: 'Chi Hong', title: 'Knowledge Extraction in Machine Learning' },
   { startTime: '14:00', endTime: '16:35', speaker: 'Xiao Wang', title: 'Safe Reinforcement Learning for Autonomous Vehicles' },
 
   { startTime: '16:35', endTime: '17:35', tip: 'Accepted Paper Presentation' },
