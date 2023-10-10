@@ -56,7 +56,7 @@ const tableData: Data[] = [
   { startTime: '10:30', endTime: '11:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 1: Trustworthy Intelligent Systems – A Daunting Challenge' },
   { startTime: '11:00', endTime: '11:30', speaker: 'Prof. Zheng Zheng (Beihang University)', title: 'Keynote 2: Reliability and Testing of Reinforcement Learning Systems' },
   { startTime: '11:30', endTime: '12:00', speaker: 'Prof. Domenico Cotroneo (University of Naples Federico II)', title: 'Keynote 3: Unveiling the Veil: Towards the Trustworthiness of AI Code Generators' },
-  { startTime: '12:00', endTime: '12:30', title: 'Panel: How Big Language Models help in Software Dependability Engineering' },
+  { startTime: '12:00', endTime: '12:30', title: 'Panel: How Large Language Models help in Software Dependability Engineering' },
   { startTime: '12:30', endTime: '14:00', tip: 'Lunch Break' },
 
   { startTime: '14:00', endTime: '16:35', tip: 'Doctoral Symposium' },
