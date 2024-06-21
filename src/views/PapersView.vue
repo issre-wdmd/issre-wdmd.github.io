@@ -1,6 +1,6 @@
 <template>
   <div class="papers">
-    <p class="pa-header p">The WDMD 2023 workshop invites researches and practitioners to submit original research contributions on dependability modeling and design. All the accepted papers will be included in the IEEE Xplore Digital Library.</p>
+    <p class="pa-header p">The WDMD 2024 workshop invites researches and practitioners to submit original research contributions on dependability modeling and design. All the accepted papers will be included in the IEEE Xplore Digital Library.</p>
 
     <div class="title2 section-title">Topics of Interest</div>
     <p class="pa-header p">Topics of the workshop include but are not limited to:</p>
@@ -16,17 +16,15 @@
     <ul class="list">
       <li class="item">
         <span class="label">Submission deadline:</span>
-        <span class="value">August 15, 2023</span>
-        <span class="value">(FIRM)</span>
-        <span class="value de">July 31, 2023</span>
+        <span class="value">July 28th, 2024</span>
       </li>
       <li class="item">
         <span class="label">Notification deadline:</span>
-        <span class="value">August 18, 2023</span>
+        <span class="value">August 18th, 2024</span>
       </li>
       <li class="item">
         <span class="label">Camera-ready deadline:</span>
-        <span class="value">August 25, 2023</span>
+        <span class="value">August 25th, 2024</span>
       </li>
     </ul>
 
@@ -53,7 +51,7 @@
     </ul>
 
     <div class="title2 section-title">Paper Submission</div>
-    <p class="pa-header p">Papers are submitted via EasyChair at the following URL: <a href="https://easychair.org/conferences/?conf=issre23" target="_blank">https://easychair.org/conferences/?conf=issre23</a></p>
+    <p class="pa-header p">Papers are submitted via EasyChair at the following URL: <a href="https://easychair.org/conferences/?conf=issre2024" target="_blank">https://easychair.org/conferences/?conf=issre2024</a></p>
     <p class="pa-content p">If you have any further questions, contact us via <mark>issre_wdmd@163.com</mark>.</p>
   </div>
 </template>
@@ -73,7 +71,13 @@ const list1 = [
   'Artificial intelligence dependability analysis',
   'Dependability design of safety-critical systems',
   'Software dependability testing',
-  'Dependability tools'
+  'Dependability tools',
+  'LLM training/inference clusters dependability model',
+  'LLM training/inference clusters dependability design',
+  'LLM training/inference clusters dependability evaluation',
+  'Reliability Modelling and Evaluation For Large Scale Computing Systems',
+  'Simulation Based methods for reliability, safety and security',
+  'Reliability and safety of autonomous driving'
 ]
 
 const list2 = [
@@ -115,11 +119,6 @@ const list2 = [
 
       .value {
         margin-left: 0.8rem;
-      }
-
-      .de {
-        text-decoration: line-through;
-        color: #666;
       }
     }
   }

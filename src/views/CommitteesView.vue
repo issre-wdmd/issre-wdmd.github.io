@@ -1,7 +1,8 @@
 <template>
   <div class="committees">
     <div class="title1  font-merri">Organizing Committee</div>
-    <div class="title2 section-title">Program Co-Chairs</div>
+    <p class="pa-content p">TBD</p>
+    <!-- <div class="title2 section-title">Program Co-Chairs</div>
     <p class="pa-header p">Joseph Sifakis, Verimag, Université Grenoble Alpes, France</p>
     <p class="pa-content p">Zheng Zheng, Beihang University, China</p>
     <p class="pa-content p">Jianwen Xiang, Wuhan University of Technology, China</p>
@@ -19,7 +20,7 @@
     <p class="pa-content p">Hezhen Liu, Huawei Technologies Co., Ltd, China</p>
     <p class="pa-content p">Ke Pei, Huawei Technologies Co., Ltd, Germany</p>
     <p class="pa-content p">Feng Liu, Huawei Technologies Co., Ltd, Germany</p>
-    <p class="pa-content p">Vivek Nigam, Huawei Technologies Co., Ltd, Germany</p>
+    <p class="pa-content p">Vivek Nigam, Huawei Technologies Co., Ltd, Germany</p> -->
 
     <div class="title2 section-title">Contact Us</div>
     <p class="pa-header p"><mark>issre_wdmd@163.com</mark></p>

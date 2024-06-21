@@ -2,10 +2,10 @@
   <div class="banner">
     <div class="background"></div>
     <div class="text">
-      <h2 class="title font-lato">WDMD 2023: 2nd International Workshop on </h2>
+      <h2 class="title font-lato">WDMD 2024: 3rd International Workshop on </h2>
       <h2 class="title font-lato">Dependability Modeling and Design</h2>
-      <div class="subtitle">Co-located with <a href="https://issre.github.io/2023/" target="_blank">ISSRE 2023</a></div>
-      <div class="tip font-merri">October 10th, Florence, Italy</div>
+      <div class="subtitle">Co-located with <a href="https://issre.github.io/2024/" target="_blank">ISSRE 2024</a></div>
+      <div class="tip font-merri">Tsukuba, Japan, October 28th - 31st, 2024</div>
     </div>
   </div>
 </template>
@@ -28,7 +28,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/florence.jpg') no-repeat center / cover;
+    background: url('@/assets/image/hosting_city-3.jpg') no-repeat center / cover;
 
     &::before {
       content: '';

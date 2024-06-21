@@ -1,7 +1,7 @@
 <template>
   <div class="keynote-speakers">
     <div class="title1 font-merri">Keynote Speakers</div>
-    <div class="title2 section-title">Joseph Sifakis, Verimag</div>
+    <!-- <div class="title2 section-title">Joseph Sifakis, Verimag</div>
 
     <div class="content">
       <div class="pa">
@@ -103,7 +103,7 @@
 
     <el-divider />
     
-    <div class="title2 section-title">Ryan Cotterell, ETH Zürich</div>
+    <div class="title2 section-title">Ryan Cotterell, ETH Zürich</div> -->
     <p class="pa-content p">TBD</p>
   </div>
 </template>
