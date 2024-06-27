@@ -14,7 +14,7 @@
     <div class="title2 section-title">Software Dependability</div>
     <p class="pa pa-header p">As software systems scale and become more intricate, guaranteeing their dependability becomes increasingly challenging. This is further compounded in complex cloud environments where issues such as scalability, fault detection, fault tolerance, and deployment need addressing. Modern applications, especially those in critical fields like digital healthcare and precision manufacturing, demand exceptionally high dependability (up to 99.9999%). We expect to develop industry-standard metrics, evaluation models, design principles, and verification methods to ensure both software dependability and the reliability of cloud-based applications and services.</p>
 
-    <div class="title2 section-title">Reliability for large-scale computing and networking systems</div>
+    <div class="title2 section-title">Reliability for Large-scale Computing and Networking Systems</div>
     <p class="pa pa-header p">With the rapid advancement of artificial intelligence, large-scale computing and networking systems are essential for training and inference tasks. These systems must process large datasets in high-performance computing and communication environments while ensuring reliability, computational speed, and accuracy. This call for papers seeks recent research on reliability assessment, fault detection and recovery, performance optimization, and related technologies and methods in large-scale computing and networking systems (e.g., clusters for LLM training and inference, cloud computing platform, etc. ) to enhance the robustness and maintainability.</p>
 
     <div class="title2 section-title">Reliability and Safety of Autonomous Driving</div>
