@@ -14,6 +14,7 @@
     <p class="pa-content p">Zheng Hu, Huawei Technologies Co., Ltd, China</p>
     <p class="pa-content p">Xiao Chen, Huawei Technologies Co., Ltd, China</p>
     <p class="pa-content p">Chengqiang Huang, Huawei Technologies Co., Ltd, China</p>
+    <p class="pa-content p">Jin Wang, Huawei Technologies Co., Ltd, China</p>
     <p class="pa-content p">Zhaojun Hao, Huawei Technologies Co., Ltd, China</p>
     <p class="pa-content p">Ke Pei, Huawei Technologies Co., Ltd, Germany</p>
     <p class="pa-content p">Feng Liu, Huawei Technologies Co., Ltd, Germany</p>
