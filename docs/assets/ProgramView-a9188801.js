@@ -1,1 +1,0 @@
-import{d as o,o as s,c as t,p as _,a,b as c,_ as p}from"./index-d98023ba.js";const d=e=>(_("data-v-db3594b3"),e=e(),a(),e),r={class:"program"},n=d(()=>c("p",{class:"pa-content p"},"TBD",-1)),i=[n],m=o({__name:"ProgramView",setup(e){return(l,b)=>(s(),t("div",r,i))}});const h=p(m,[["__scopeId","data-v-db3594b3"]]);export{h as default};
