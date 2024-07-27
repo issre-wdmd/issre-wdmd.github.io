@@ -16,15 +16,16 @@
     <ul class="list">
       <li class="item">
         <span class="label">Submission deadline:</span>
-        <span class="value">July 28th, 2024</span>
+        <span class="value strong">August 11th, 2024 (AoE)</span>
+        <span class="value del">July 28th, 2024 (AoE)</span>
       </li>
       <li class="item">
         <span class="label">Notification deadline:</span>
-        <span class="value">August 18th, 2024</span>
+        <span class="value">August 18th, 2024 (AoE)</span>
       </li>
       <li class="item">
         <span class="label">Camera-ready deadline:</span>
-        <span class="value">August 25th, 2024</span>
+        <span class="value">August 25th, 2024 (AoE)</span>
       </li>
     </ul>
 
@@ -113,12 +114,16 @@ const list2 = [
         margin-top: 0;
       }
 
-      .label {
+      .label, .strong {
         font-weight: bold;
       }
 
       .value {
         margin-left: 0.8rem;
+      }
+
+      .del {
+        text-decoration: line-through;
       }
     }
   }
