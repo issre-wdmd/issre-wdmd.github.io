@@ -52,8 +52,6 @@ interface MethodProps {
 }
 
 const tableData: Data[] = [
-  { startTime: '10:20', endTime: '10:30', speaker: 'Dr. Jin Wang (Huawei Technologies Co., Ltd.)', title: 'Opening: Explorations and Practices Towards a Reliable Intelligent System'
-  },
   { startTime: '10:30', endTime: '11:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 1: Trustworthy Intelligent Systems – A Daunting Challenge' },
   { startTime: '11:00', endTime: '11:30', speaker: 'Prof. Zheng Zheng (Beihang University)', title: 'Keynote 2: Reliability and Testing of Reinforcement Learning Systems' },
   { startTime: '11:30', endTime: '12:00', speaker: 'Prof. Domenico Cotroneo (University of Naples Federico II)', title: 'Keynote 3: Unveiling the Veil: Towards the Trustworthiness of AI Code Generators' },

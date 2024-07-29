@@ -12,7 +12,6 @@
     <p class="pa-content p">Min Zhang, East China Normal University, China</p>
     <p class="pa-content p">Dehui Du, East China Normal University, China</p>
     <p class="pa-content p">Liyan Song, Southern University of Science and Technology, China</p>
-    <p class="pa-content p">Jin Wang, Huawei Technologies Co., Ltd, China</p>
 
     <div class="title2 section-title">Contact Us</div>
     <p class="pa-header p"><mark>issre_wdmd@163.com</mark></p>
