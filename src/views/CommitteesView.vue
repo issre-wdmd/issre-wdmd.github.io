@@ -5,6 +5,7 @@
     <p class="pa-header p">Joseph Sifakis, Verimag, Université Grenoble Alpes, France</p>
     <p class="pa-content p">Zheng Zheng, Beihang University, China</p>
     <p class="pa-content p">Jianwen Xiang, Wuhan University of Technology, China</p>
+    <p class="pa-content p">Lei Ma, The University of Tokyo, Japan</p>
 
     <div class="title2 section-title">Program Committee</div>
     <p class="pa-header p">Shenglin Zhang, Nankai University, China</p>
