@@ -21,12 +21,12 @@
       </li>
       <li class="item">
         <span class="label">Notification deadline:</span>
-        <span class="value strong">September 10th, 2024 (AoE)</span>
+        <span class="value strong">September 2nd, 2024 (AoE)</span>
         <span class="value del">August 21th, 2024 (AoE)</span>
       </li>
       <li class="item">
         <span class="label">Camera-ready deadline:</span>
-        <span class="value strong">September 17th, 2024 (AoE)</span>
+        <span class="value strong">September 10th, 2024 (AoE)</span>
         <span class="value del">August 28th, 2024 (AoE)</span>
       </li>
     </ul>
