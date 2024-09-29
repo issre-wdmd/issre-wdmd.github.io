@@ -15,7 +15,7 @@
           <el-link class="link" href="https://easychair.org/conferences/?conf=issre2024" target="_blank" :underline="false">SUBMISSION</el-link>
         </el-menu-item>
         <el-menu-item index="/participation">CALL FOR PARTICIPATION</el-menu-item>
-        <el-menu-item index="/keynote/speakers">KEYNOTE SPEAKERS</el-menu-item>
+        <el-menu-item index="/keynotes">KEYNOTES</el-menu-item>
         <el-menu-item index="/committees">COMMITTEES</el-menu-item>
         <!-- <el-menu-item index="/attending">ATTENDING</el-menu-item> -->
       </div>

@@ -21,8 +21,8 @@ const routes = [
     component: () => import('@/views/PapersView.vue')
   },
   {
-    path: '/keynote/speakers',
-    component: () => import('@/views/KeynoteSpeakersView.vue')
+    path: '/keynotes',
+    component: () => import('@/views/KeynotesView.vue')
   },
   {
     path: '/committees',
