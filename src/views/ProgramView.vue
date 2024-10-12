@@ -54,9 +54,9 @@ const tableData: Data[] = [
 ]
 
 const cellClassName = ({ rowIndex }: MethodProps) => {
-  if (rowIndex === 1 || rowIndex === 8 || rowIndex === 15) {
+  if (rowIndex === 1 || rowIndex === 7 || rowIndex === 14) {
     return 'title'
-  } else if (rowIndex === 4 || rowIndex === 7 || rowIndex === 11) {
+  } else if (rowIndex === 4 || rowIndex === 6 || rowIndex === 10) {
     return 'rest'
   }
 }
