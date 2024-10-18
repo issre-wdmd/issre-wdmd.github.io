@@ -20,6 +20,30 @@
       <el-divider />
 
       <div class="keynote">
+        <div class="section-title">AI-powered Safe and Reliable Autonomous Navigation for Self-Driving Vehicles</div>
+        <div class="title2 section-author">Yuxiang Sun</div>
+
+        <div class="section-content">
+          <div class="bold">Abstract: </div>
+          <p class="pa">Autonomous navigation refers to automatically moving self-driving vehicles from a start location to a goal location without human intervention. Reliable and safe autonomous navigation is the key to realize autonomous driving. It mainly includes two aspects: environment perception and vehicle control. In recent years, with the impressive advancement of artificial intelligence (AI) technologies, deep learning-based perception and control have also made significant progress. However, the existing technologies are still difficult to realize reliable and safe autonomous navigation in complex environments. In addition, the extensive use of deep neural networks makes autonomous navigation systems like black boxes, which are difficult to explain, thus limiting their applications in real-world scenarios. This talk will focus on safe and reliable autonomous navigation for self-driving vehicles, and introduce our recent research work in the fields of environment perception and end-to-end navigation.</p>
+        </div>
+      </div>
+
+      <el-divider />
+
+      <div class="keynote">
+        <div class="section-title">Human-like Autonomous Driving and Future Challenges in Perception for Intelligent Vehicles</div>
+        <div class="title2 section-author">Yanlei Gu</div>
+
+        <div class="section-content">
+          <div class="bold">Abstract: </div>
+          <p class="pa">Autonomous vehicles are more likely to gain widespread acceptance if they can accurately interpret the behaviors of vulnerable road users, such as pedestrians and cyclists, and respond in ways that align with human driving behavior. This capability is becoming increasingly vital as autonomous and human-driven vehicles are expected to coexist on shared roadways in the near future. A key aspect of human driving intelligence is the ability to infer and reason about the intentions of other road users, which enables intuitive decision-making. For instance, when pedestrians intend to cross the street, drivers can recognize their intentions through certain signals, such as turning their heads to check for approaching vehicles. Our research team aims to replicate this human-like intelligence by employing machine learning techniques to develop advanced perception models that recognize the intentions of vulnerable road users. This presentation will introduce our recent work on human-like autonomous driving and discuss the challenges associated with perception in autonomous driving.</p>
+        </div>
+      </div>
+
+      <el-divider />
+
+      <div class="keynote">
         <div class="section-title">AI-powered software reliability engineering and it's application</div>
         <div class="title2 section-author">Jun Ai</div>
 
