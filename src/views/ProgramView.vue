@@ -43,13 +43,12 @@ const tableData: Data[] = [
   { time: '11:35 -11:45', speaker: 'Lizhi Zhang, Jingwei Fu, Yan He and Xiaobin Jiang.', topic: 'Toward Deterministic Wireless Communication: Latency Prediction Using Network Measurement Data' },
   { time: '11:45-11:55', speaker: 'Ning Lu, Qian Xie, Hao Zhang, Wenyi Fang, Yang Zheng, Zheng Hu and Jiantao Ma', topic: 'A Practical Reliability Metric for Large Language Model Training Systems' },
   { time: '', speaker: '', topic: `Session Three --- Invited Talks: Reliablity and Modelling Technogies for AI Systems ` },
-  { time: '13:40-14:20', speaker: 'Jun Ai', topic: `Keynote 3: AI-powered software reliability engineering and it's application` },
+  { time: '13:40-14:20', speaker: 'Guanpeng Li', topic: 'Keynote 3: Towards building fault-tolerant and compression-accelerated HPC systems' },
   { time: '14:20-15:00', speaker: 'Mohamed Wahib', topic: 'Keynote 4: Parallelism in LLMs: Beyond Data, Tensor, and Pipeline Parallelism' },
-  { time: '15:00- 15:15', speaker: '', topic: 'Coffe Break' },
+  { time: '15:00-15:15', speaker: '', topic: 'Coffe Break' },
   { time: '15:15-15:55', speaker: 'Xing Pan', topic: 'Keynote 5: Reliability Analysis and Evaluation of Computing Network' },
-  { time: '15:55-16:35', speaker: 'Guanpeng Li', topic: 'Keynote 6: TBD' },
-  { time: '16:35-17:20', speaker: '', topic: 'Panel: Reliability Technologies for AI training/Inference Systems (Panel: Chair Zheng zhen)' },
-  { time: '17:20---', speaker: '', topic: 'Ending' },
+  { time: '15:55-16:40', speaker: '', topic: 'Panel: Reliability Technologies for AI training/Inference Systems (Panel: Chair Zheng zhen)' },
+  { time: '16:40---', speaker: '', topic: 'Ending' },
 ]
 
 const cellClassName = ({ rowIndex }: MethodProps) => {
